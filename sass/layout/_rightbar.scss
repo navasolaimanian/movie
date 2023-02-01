@@ -1,0 +1,21 @@
+.right_bar {
+    width: 20%;
+    background-color: $primery;
+    display: flex;
+    flex-direction: column;
+}
+
+.search_bar {
+    height: 10%;
+    background-color: aliceblue;
+}
+
+.popular {
+    height: 45%;
+    background-color: aquamarine;
+}
+
+.favorites {
+    height: 45%;
+    background-color: brown;
+}
