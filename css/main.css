@@ -4,16 +4,32 @@
   display: flex;
   flex-direction: column; }
 
-.search_bar {
+.search-bar {
+  display: flex;
   height: 10%;
-  background-color: aliceblue; }
+  position: relative; }
+  .search-bar__icon {
+    color: #5e5c5c;
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 9%; }
+  .search-bar__input {
+    border-radius: 3rem;
+    width: 60%;
+    height: 60%;
+    margin: 4% auto;
+    display: block;
+    background-color: #1e1d1d;
+    border: 0.2rem solid #5e5c5c;
+    padding: 1rem 4rem; }
 
 .popular {
-  height: 45%;
+  height: 40%;
   background-color: aquamarine; }
 
 .favorites {
-  height: 45%;
+  height: 40%;
   background-color: brown; }
 
 .center {
@@ -38,5 +54,5 @@ body {
 
 .container {
   display: flex;
-  height: 100vh;
+  height: 85rem;
   margin: 2rem; }
