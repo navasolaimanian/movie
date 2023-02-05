@@ -1,6 +1,6 @@
 .right_bar {
-  width: 15%;
-  background-color: #2b2929;
+  width: 20%;
+  background-color: #080405;
   display: flex;
   flex-direction: column; }
 
@@ -9,81 +9,137 @@
   height: 8%;
   position: relative; }
   .search-bar__icon {
-    color: #6d6b6b;
+    color: #8990a4;
     font-size: 2rem;
     position: absolute;
-    margin-left: 15%;
-    margin-top: 8%;
+    margin-left: 19%;
+    margin-top: 4%;
     cursor: pointer; }
   .search-bar__input {
     cursor: pointer;
     border-radius: 3rem;
-    width: 80%;
-    height: 60%;
-    margin: 4% auto;
+    width: 70%;
+    height: 110%;
+    margin: 0 auto;
     display: block;
-    background-color: #2b2929;
-    border: 0.2rem solid #6d6b6b;
+    background-color: #080405;
+    border: 0.2rem solid #8990a4;
     padding: 1rem 4rem; }
 
 .popular {
+  margin-top: -1rem;
   height: 45%;
   margin-left: 10%;
+  padding: 3rem;
   color: aliceblue; }
   .popular__title {
-    margin: 1rem 0; }
+    margin: 1.5rem 0; }
   .popular__movie {
-    display: flex; }
-    .popular__movie--img img {
-      cursor: pointer;
-      height: 80%;
-      border-radius: 1rem;
-      filter: brightness(1.3);
-      box-shadow: 1px 1px 6px 1px black; }
+    display: flex;
+    height: 50%;
+    margin-bottom: 2rem; }
+    .popular__movie--img {
+      margin-right: 1.5rem; }
+      .popular__movie--img img {
+        cursor: pointer;
+        height: 15rem;
+        border-radius: 1rem;
+        filter: brightness(1.3);
+        box-shadow: 1px 1px 6px 1px black; }
+    .popular__movie--info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      position: relative; }
     .popular__movie--title2 {
       cursor: pointer;
       font-size: 1.7rem;
       margin-bottom: 0.5rem; }
     .popular__movie--genre {
       font-size: 1.3rem;
-      color: #6d6b6b; }
+      color: #8990a4; }
     .popular__movie--imdb {
       display: flex;
-      margin-top: 4rem; }
+      position: absolute;
+      top: 55%; }
       .popular__movie--imdb i {
         font-size: 3.5rem;
         color: yellow; }
       .popular__movie--imdb img {
-        width: 60%;
-        height: 60%;
-        margin-top: 0.6rem; }
+        height: 40%;
+        width: 65%;
+        margin-top: 1.6rem; }
     .popular__movie--rate {
-      margin: 30% 10%;
+      margin: 47% 20%;
       font-size: 1.1rem; }
   .popular__btn {
     padding: 1rem 1rem;
     width: 80%;
     color: aliceblue;
     border-radius: 1rem;
-    background-color: #e02121;
+    background-color: #a42618;
     font-weight: 800;
     border: none;
     box-shadow: 1px 1px 6px 1px #222222;
     cursor: pointer; }
 
 .favorites {
+  padding: 3rem;
   height: 45%;
   height: 45%;
   margin-left: 10%;
-  margin-top: 3rem;
+  margin-top: 22%;
   color: aliceblue; }
 
 .center {
-  width: 70%;
-  background-color: antiquewhite; }
+  width: 60%;
+  color: aliceblue; }
+  .center__first {
+    height: 50%; }
+  .center__second {
+    padding: 8rem;
+    height: 50%; }
+    .center__second__BestArtist {
+      height: 50%; }
+      .center__second__BestArtist--header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+      .center__second__BestArtist--content {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between; }
+    .center__second__artist {
+      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/kU3B75TyRiCgE270EyZnHjfivoq.jpg);
+      background-size: cover;
+      width: 21%;
+      height: 25rem;
+      border-radius: 1rem;
+      box-shadow: 1px 1px 6px 1px #1b1b1b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      padding: 2.5rem; }
+      .center__second__artist--name {
+        font-size: 1.5rem; }
+      .center__second__artist--numberMovie {
+        margin-top: 0.3rem; }
+      .center__second__artist--stars {
+        margin-top: 0.3rem; }
+  .center__btn {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    background-color: #080405;
+    border: 0.2rem solid #8990a4;
+    color: aliceblue;
+    cursor: pointer; }
+    .center__btn--left {
+      margin-right: 1rem; }
 
 .left_bar {
-  width: 15%; }
+  width: 20%; }
 
 * {
   margin: 0;
@@ -97,9 +153,10 @@ body {
   font-family: sans-serif, serif;
   font-weight: 400;
   line-height: 1.3;
-  background-color: #2b2929; }
+  background-color: #080405; }
 
 .container {
   display: flex;
-  height: 87rem;
-  margin: 2rem; }
+  height: 84rem;
+  margin: 0 2rem;
+  padding: 2rem; }

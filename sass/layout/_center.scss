@@ -1,4 +1,76 @@
 .center {
-    width: 70%;
-    background-color:antiquewhite;
+    width: 60%;
+    color: aliceblue;
+
+    // background-color:antiquewhite;
+    &__first {
+        height: 50%;
+        // background-color: antiquewhite;
+
+    }
+
+    &__second {
+        padding: 8rem;
+        height: 50%;
+
+        &__BestArtist {
+            height: 50%;
+
+            &--header {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            &--content {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+            }
+
+        }
+
+        &__artist {
+            // background-image: url(../../img/kU3B75TyRiCgE270EyZnHjfivoq.jpg);
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/kU3B75TyRiCgE270EyZnHjfivoq.jpg);
+            background-size: cover;
+            width: 21%;
+            height: 25rem;
+            border-radius: 1rem;
+            box-shadow: 1px 1px 6px 1px rgb(27, 27, 27);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            padding: 2.5rem;
+            &--name {
+                font-size: 1.5rem;
+            }
+            &--numberMovie {
+                margin-top: 0.3rem;
+            }
+            &--stars {
+                margin-top: 0.3rem;
+            }
+
+        }
+    }
+
+    &__btn {
+
+        width: 3.8rem;
+        height: 3.8rem;
+        border-radius: 50%;
+        background-color: $primery;
+        border: 0.2rem solid $secondary;
+        color: aliceblue;
+        cursor: pointer;
+
+        &--right {}
+
+        &--left {
+            margin-right: 1rem;
+        }
+    }
 }
