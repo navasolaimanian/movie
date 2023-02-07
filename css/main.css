@@ -1,3 +1,13 @@
+.btn {
+  padding: 1rem 1rem;
+  color: aliceblue;
+  border-radius: 1rem;
+  background-color: #a42618;
+  font-weight: 800;
+  border: none;
+  box-shadow: 1px 1px 6px 1px #222222;
+  cursor: pointer; }
+
 .right_bar {
   width: 20%;
   background-color: #080405;
@@ -73,15 +83,7 @@
       margin: 47% 20%;
       font-size: 1.1rem; }
   .popular__btn {
-    padding: 1rem 1rem;
-    width: 80%;
-    color: aliceblue;
-    border-radius: 1rem;
-    background-color: #a42618;
-    font-weight: 800;
-    border: none;
-    box-shadow: 1px 1px 6px 1px #222222;
-    cursor: pointer; }
+    width: 80%; }
 
 .favorites {
   padding: 3rem;
@@ -141,6 +143,44 @@
 .left_bar {
   width: 20%; }
 
+.movie {
+  font-size: 1.6rem;
+  width: 80%;
+  height: 106%;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem; }
+  .movie__info {
+    color: aliceblue;
+    margin: 0 10rem; }
+    .movie__info--about--imdb {
+      display: flex;
+      align-items: center; }
+    .movie__info--about--rate {
+      margin-left: 1rem;
+      font-size: 1.3rem; }
+    .movie__info--about--genre {
+      margin-left: 1rem;
+      margin-left: 2rem;
+      background-color: #5a0b08;
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      box-shadow: 1px 1px 6px 1px #1b1b1b; }
+    .movie__info--overview {
+      margin: 2.5rem 0; }
+    .movie__info--watch {
+      width: 20%; }
+  .movie__poster {
+    display: flex;
+    justify-content: center; }
+  .movie__poster img {
+    width: 45%;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 6px 1px #1b1b1b; }
+
 * {
   margin: 0;
   padding: 0;
@@ -160,3 +200,6 @@ body {
   height: 84rem;
   margin: 0 2rem;
   padding: 2rem; }
+
+.hidden {
+  display: none; }
