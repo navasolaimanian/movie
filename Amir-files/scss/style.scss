@@ -1,0 +1,16 @@
+@import "layouts/navigation";
+@import "layouts/searchBox";
+@import "layouts/mainPart";
+@import "layouts/form";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
